@@ -1,0 +1,36 @@
+ -- create database worker
+-- create table workerdata(
+-- worker_id int not null primary key,
+-- first_name varchar(30) not null,
+-- last_name varchar(30) not null,
+-- salary int not null,
+-- join_date varchar(30) not null,
+-- department varchar(30) not null
+-- );
+
+-- insert into workerdata(worker_id,first_name,last_name,salary,join_date,department) values
+-- (001,"Monika","Arora",100000,"2014-02-20 09:00:00","HR"),
+-- (002,"Niharika","Verma",80000,"2014-02-20 09:00:00","Admin"),
+-- (003,"Vishal","Singhal",300000,"2014-02-20 09:00:00","HR"),
+-- (004,"Amitabh","Singh",500000,"2014-02-20 09:00:00","Admin"),
+-- (005,"Vivek","Bhati",500000,"2014-02-20 09:00:00","Admin"),
+-- (006,"Vipul","Diwan",200000,"2014-02-20 09:00:00","Account"),
+-- (007,"Satish","Kumar",75000,"2014-02-20 09:00:00","Account"),
+-- (008,"Gettika","Chouhan",90000,"2014-02-20 09:00:00","Admin");
+-- 1.
+-- select first_name as WORKER_NAME from worker;
+-- 2.
+-- select position("a" IN first_name) as matchedposition from workerdata where first_name="Amitabh";
+-- 3.
+-- select replace(first_name,"a","A") as First_name from workerdata;
+-- 4.
+-- select first_name from workerdata order by first_name;
+-- 5
+-- select *from workerdata order by first_name asc,department desc;
+-- 6
+-- select * from workerdata where first_name="satish" or first_name="vipul";
+-- 7
+-- select * from workerdata where department="Admin";
+-- 8
+-- select *from workerdata where first_name like "%a%";
+
